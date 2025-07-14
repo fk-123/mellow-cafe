@@ -1,2 +1,83 @@
-# mellow-cafe
-A simple cafe website made with HTML
+<html>
+<head>
+  <title>Mellow Cafe</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #f4d4c4;
+      padding: 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #5b3a29;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .menu-item {
+      margin: 10px 0;
+    }
+    img {
+      width: 200px;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #f4d4c4;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mellow Cafe</h1>
+    <img src="https://via.placeholder.com/200x100?text=Cafe+Logo" alt="Cafe Logo">
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Mellow Cafe</h2>
+    <p>Your cozy spot for coffee, cakes, and chill vibes!</p>
+    <img src="https://via.placeholder.com/400x200?text=Cafe+Photo" alt="Cafe Photo">
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">Iced Coffee - $3.00</div>
+    <div class="menu-item">Hot Chocolate - $2.50</div>
+    <div class="menu-item">Chocolate Cake - $4.00</div>
+    <div class="menu-item">Blueberry Muffin - $2.00</div>
+    <div class="menu-item">Lemonade - $2.50</div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Mellow Cafe is a friendly neighborhood cafe where everyone is welcome. We love good coffee and sweet treats!</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: 123-456-7890</p>
+    <p>Email: mellowcafe@example.com</p>
+    <p>Address: 456 Coffee Street, Bean Town</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mellow Cafe</p>
+  </footer>
+
+</body>
+</html>

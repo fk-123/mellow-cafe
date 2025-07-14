@@ -3,35 +3,58 @@
   <title>Mellow Cafe</title>
   <style>
     body {
+      background-color: #fff7e6; /* soft light yellow */
       font-family: Arial, sans-serif;
-      background-color: #fff8f0;
-      color: #333;
       text-align: center;
+      color: #6b4c3b; /* brown */
+      margin: 20px;
     }
     header {
-      background-color: #f4d4c4;
+      background-color: #f2b179; /* light orange */
       padding: 20px;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #5b3a29;
-      font-weight: bold;
-    }
-    section {
-      padding: 20px;
-    }
-    .menu-item {
-      margin: 10px 0;
-    }
-    img {
-      width: 200px;
       border-radius: 10px;
     }
-    footer {
-      background-color: #f4d4c4;
+    h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #6b4c3b;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      background-color: #ffe6b3; /* pale yellow */
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      font-size: 1.3em;
+    }
+    li {
+      margin: 10px 0;
+      background-color: #f2d5a9;
       padding: 10px;
-      margin-top: 20px;
+      border-radius: 5px;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #a67845;
+    }
+    img {
+      width: 150px;
+      border-radius: 10px;
+      margin-top: 15px;
     }
   </style>
 </head>
@@ -39,33 +62,35 @@
 
   <header>
     <h1>Mellow Cafe</h1>
-    <img src="https://via.placeholder.com/200x100?text=Cafe+Logo" alt="Cafe Logo">
+    <img src="https://via.placeholder.com/150?text=Cafe+Logo" alt="Cafe Logo" />
     <nav>
-      <a href="#home">Home</a>
-      <a href="#menu">Menu</a>
-      <a href="#about">About Us</a>
+      <a href="#home">Home</a> |
+      <a href="#menu">Menu</a> |
+      <a href="#about">About Us</a> |
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <section id="home">
-    <h2>Welcome to Mellow Cafe</h2>
-    <p>Your cozy spot for coffee, cakes, and chill vibes!</p>
-    <img src="https://via.placeholder.com/400x200?text=Cafe+Photo" alt="Cafe Photo">
+    <h2>Welcome to Mellow Cafe!</h2>
+    <p>We serve yummy coffee and tasty treats for everyone.</p>
+    <img src="https://via.placeholder.com/400x200?text=Cafe+Photo" alt="Cafe Photo" />
   </section>
 
   <section id="menu">
     <h2>Our Menu</h2>
-    <div class="menu-item">Iced Coffee - $3.00</div>
-    <div class="menu-item">Hot Chocolate - $2.50</div>
-    <div class="menu-item">Chocolate Cake - $4.00</div>
-    <div class="menu-item">Blueberry Muffin - $2.00</div>
-    <div class="menu-item">Lemonade - $2.50</div>
+    <ul>
+      <li>Iced Coffee - $3.00</li>
+      <li>Hot Chocolate - $2.50</li>
+      <li>Chocolate Cake - $4.00</li>
+      <li>Blueberry Muffin - $2.00</li>
+      <li>Lemonade - $2.50</li>
+    </ul>
   </section>
 
   <section id="about">
     <h2>About Us</h2>
-    <p>Mellow Cafe is a friendly neighborhood cafe where everyone is welcome. We love good coffee and sweet treats!</p>
+    <p>Mellow Cafe is a happy place where friends meet for coffee and snacks. We love making people smile!</p>
   </section>
 
   <section id="contact">
@@ -76,8 +101,9 @@
   </section>
 
   <footer>
-    <p>&copy; 2025 Mellow Cafe</p>
+    &copy; 2025 Mellow Cafe
   </footer>
 
 </body>
 </html>
+

@@ -42,8 +42,8 @@
     }
     li {
       margin: 10px 0;
-      background-color: #f2d5a9;
-      padding: 10px;
+      background-color: #f2d5
+padding: 10px;
       border-radius: 5px;
     }
     footer {
@@ -106,4 +106,3 @@
 
 </body>
 </html>
-
